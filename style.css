@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playball&family=Raleway:wght@200&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: var(--main-bg-color);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 85px;
+    padding-bottom: 5px;
+    padding-left: 160px;
+    padding-right: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.explore {
+    margin-top: 36px;
+    margin-left: -115px;
+    font-size: 13px;
+    font-style: italic;
+    color: yellow;
+}
+
+.explore:hover {
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    height: 58px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 23px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 40vw;
+}
+
+.search input {
+    height: 22px;
+    width: 600px;
+    border-radius: 2px;
+}
+
+.search button {
+    font-family: 'Raleway', sans-serif;
+}
+
+.search button:hover {
+    font-weight: bold;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 58px);
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider img {
+    width: 90vw;
+    height: 60vh;
+    margin-top: 10px;
+}
+
+.card {
+    max-width: 90vw;
+    margin: auto;
+    margin: 55px auto;
+    background-color: whitesmoke;
+    height: 350px;
+}
+
+.heading {
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.inside-bg {
+    background-color: white;
+    margin: 35px 30px;
+    height: 260px;
+}
+
+.card-items {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0px 29px;
+    padding: 0px 17px;
+}
+
+.card-items img {
+    width: 130px;
+    margin-left: 30px;
+}
+
+.lines {
+    margin-left: 67px;
+    display: grid;
+    grid-row-gap: 2px;
+    margin-top: 2px;
+}
+
+#img1 {
+    width: 70px;
+}
+
+#img2 {
+    width: 114px;
+    height: 173px;
+    margin-top: 16px;
+}
+
+footer {
+    height: 58px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
